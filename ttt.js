@@ -30,14 +30,21 @@ var myInterval = setInterval(function(){
 function playPause() {
     document.getElementsByClassName("bii-player")[0].classList.remove("show-sec");
     if (audioPlayer.paused) {
-        audioPlayer.play();
-        document.getElementById("playerVolumeOff").style.display = "none";
-        document.getElementById("playerVolumeOn").style.display = "block";
+        playAudio();
     } else {
-        audioPlayer.pause();
-        document.getElementById("playerVolumeOff").style.display = "block";
-        document.getElementById("playerVolumeOn").style.display = "none";
+        pauseAudio();
     }
+}
+function playAudio(){
+    console.log("helo")
+    audioPlayer.play();
+    document.getElementById("playerVolumeOff").style.display = "none";
+    document.getElementById("playerVolumeOn").style.display = "block";
+}
+function pauseAudio(){
+    audioPlayer.pause();
+    document.getElementById("playerVolumeOff").style.display = "block";
+    document.getElementById("playerVolumeOn").style.display = "none";
 }
 var sendajax = function(form) {
     var inputs = form.getElementsByTagName('input');

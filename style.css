@@ -3032,7 +3032,7 @@ h2.gla_slide_title:after {
 
 }
 .gla_flower2:after {
-    background: url("https://thutrangwedding.thieptraotay.com/images/flower2.webp");
+    background: url("https://thutrangwedding.thieptraotay.com/template/Adore/images/flower2.webp");
     width: 485px;
     height: 485px;
     -webkit-background-size: cover;
@@ -3055,7 +3055,7 @@ h2.gla_slide_title:after {
 .gla_flower2:before {
     display: block;
     content: '';
-    background: url("https://thutrangwedding.thieptraotay.com/images/flower2_bird.webp");
+    background: url("https://thutrangwedding.thieptraotay.com/template/Adore/images/flower2_bird.webp");
     width: 120px;
     height: 115px;
     position: absolute;
@@ -3474,7 +3474,7 @@ video#video_background  {
 .gla_round_im2:after {
     display: block;
     content: '';
-    background: url("../images/flower2.webp");
+    background: url("https://thutrangwedding.thieptraotay.com/template/Adore/images/flower2.webp");
     height: 300px;
     width: 300px;
     -webkit-background-size: cover;

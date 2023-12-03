@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="./bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./ttt.css" />
+    <script src="./ttt.js"></script>
     <title>
       Thiệp cưới Văn Thử &amp; Thùy Trang | Save The Date 31/12/2023
     </title></head
@@ -686,55 +687,15 @@
         </section>
         <!-- section end -->
       </section>
-      <footer
-        id="fh5co-footer"
-        class="ttt-copyright"
-        role="contentinfo"
-        style="padding: 4rem 0"
-      >
-        <div class="container">
-          <div class="row copyright">
-            <div class="col-md-12 text-center">
-              Nền tảng tạo thiệp cưới online miễn phí
-              <a
-                href="https://thieptraotay.com"
-                title="Nền tảng tạo thiệp cưới online miễn phí"
-                ><img
-                  src="https://thutrangwedding.thieptraotay.com/logo.png"
-                  alt="Logo Thiệp Trao Tay"
-                  width="200"
-              /></a>
-            </div>
-          </div>
-        </div>
-      </footer>
       <!-- Content End -->
     </div>
-    <div class="bii-logo ttt-copyright">
-      <div class="bii-logo-secondary">
-        <div class="bii-logo-secondary-content">
-          Nền tảng tạo Website thiệp cưới miễn phí!
-        </div>
-      </div>
-      <a href="https://thieptraotay.com" target="_blank"
-        ><img src="https://thutrangwedding.thieptraotay.com/image/qrcode3.png"
-      /></a>
-    </div>
     <div class="bii-player" style="display: block">
-      <div
-        onclick="if (!window.__cfRLUnblockHandlers) return false; playPause();"
-        class="bii-player-secondary"
-        data-cf-modified-0a9e72ff431d82f134bdeabd-=""
-      >
+      <div onclick="playPause()" class="bii-player-secondary">
         <div class="bii-player-secondary-content">
           Click vào đây nếu bạn muốn phát nhạc!
         </div>
       </div>
-      <div
-        onclick="if (!window.__cfRLUnblockHandlers) return false; playPause();"
-        class="playerIcon"
-        data-cf-modified-0a9e72ff431d82f134bdeabd-=""
-      >
+      <div onclick="playPause();" class="playerIcon">
         <span id="playerVolumeOff">
           <svg
             width="25"
@@ -766,11 +727,7 @@
             ></path></svg
         ></span>
       </div>
-      <input
-        type="hidden"
-        id="ttt-music"
-        value="https://thutrangwedding.thieptraotay.com/music/IDo.mp3"
-      />
+      <input type="hidden" id="ttt-music" value="/music/happy-wedding.mp3" />
     </div>
     <!-- Page End -->
     <!-- JQuery -->
@@ -780,12 +737,6 @@
     <script src="./glanz-library.js" type="text/javascript"></script>
     <!-- Theme JS -->
     <script src="./glanz-scripts.js"></script>
-    <script src="./ttt.js" type="text/javascript"></script>
     <script src="./rocket-loader.min.js" defer></script>
-    <audio
-      src="https://thutrangwedding.thieptraotay.com/music/IDo.mp3"
-      controls="controls"
-      style="display: none"
-    ></audio>
   </body>
 </html>
